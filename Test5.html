@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example of z-index</title>
+    <style>
+        .Z-index1{
+            width: 200px;
+            height: 200px;
+            background-color: rgb(175, 69, 104,0.9);
+            z-index: 1;
+            left: 100px;
+            top: 100px;
+            position: absolute;
+        }
+        .Z-index2{
+            width: 200px;
+            height: 200px;
+            background-color: rgb(227, 85, 170,0.9);
+            z-index: 2;
+            left: 150px;
+            top: 150px;
+            position: absolute;
+        }
+
+        .Z-index3{
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            background-color: rgb(126, 25, 116,0.9);
+            z-index: 3;
+            left: 200px;
+            top: 200px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="Z-index1">Z-index1</div>
+    <div class="Z-index2">Z-index2</div>
+    <div class="Z-index3">Z-index3</div>
+</body>
+</html>
